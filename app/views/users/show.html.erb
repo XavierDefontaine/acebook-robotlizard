@@ -1,4 +1,9 @@
 <h1> <%= @user.first_name %> <%=@user.last_name%> </h1>
+<%= form_for @post do |form| %>
+  <%= form.label "What's on your mind?" %><br>
+  <%= form.text_field :message %><br>
+  <%= form.submit "Submit" %>
+<% end %>
 <% @posts.reverse.each do |post| %>
   <% if post.user_id == @user.id %>
   <div>
