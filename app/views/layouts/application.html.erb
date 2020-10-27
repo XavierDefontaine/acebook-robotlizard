@@ -19,6 +19,7 @@
       <ul class="right hide-on-med-and-down">
       <% if user_signed_in? %>
        Logged in as <strong><%= current_user.email %></strong>.
+        <li><%= link_to 'My Profile', user_path(current_user.id), :method => :get, :class => 'navbar-link' %></li>
         <li><%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %></li>
         <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
       <% else %>
@@ -28,22 +29,7 @@
       </ul>
     </div>
   </nav>
-
-<<<<<<< HEAD
-  <% if user_signed_in? %>
-    Logged in as <strong><%= current_user.email %></strong>.
-    <%= link_to 'Home',posts_path, :class => 'navbar-link' %> |
-    <%= link_to 'My Profile', user_path(current_user.id), :method => :get, :class => 'navbar-link' %> |
-    <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-    <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-  <% else %>
-    <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-    <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-  <% end %>
-  </p>
   
-=======
->>>>>>> e73bf79... nav bar done
   </head>
 
   <body>
