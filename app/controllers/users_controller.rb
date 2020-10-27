@@ -19,6 +19,8 @@ class UsersController < ApplicationController
     @comment = Comment.new(post_id: params[:post_id])
   end
 
+
+
   def index
     @users = User.all
   end
