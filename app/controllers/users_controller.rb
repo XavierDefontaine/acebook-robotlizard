@@ -10,11 +10,7 @@ class UsersController < ApplicationController
     UserMailer.with(user: @user).welcome_email.deliver_now
     format.html { redirect_to(@user, notice: 'User was created.') }
     format.json { render json: @user, status: :created, location: @user }
-    
-
-    #redirect_to user_url
   end
-  
 
   def show
     @post = Post.new
@@ -30,6 +26,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:email)
+    params.require(:user).permit(:email, :first_name, :last_name, :bio)
   end
 end
