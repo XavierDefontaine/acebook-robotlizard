@@ -23,3 +23,8 @@ def add_post
   fill_in :post_message, with: "Hello, world!"
   find("input[type=submit][value='Submit']").click
 end
+
+def add_comment
+  fill_in :comment_content, with: "I walk the lonely toad"
+  find("input[type=submit][value='Submit ']").click
+end
