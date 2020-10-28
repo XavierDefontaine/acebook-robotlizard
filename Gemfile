@@ -6,8 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'has_friendship'
-gem "aws-sdk-s3", require: false
 
+gem 'mini_magick'
 gem "google-cloud-storage", "~> 1.8", require: false
 gem 'bootsnap'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
