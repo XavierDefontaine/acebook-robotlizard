@@ -27,7 +27,6 @@ Rails.application.routes.draw do
     member do
       put "like", to: "posts#like"
       put "unlike", to: "posts#unlike"
-      delete "destroy", to: "posts#destroy"
     end
   end
 
