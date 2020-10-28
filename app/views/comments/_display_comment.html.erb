@@ -8,7 +8,7 @@
 
 <%= button_to "Delete Comment", { :controller => "comments",:action => 'destroy', :id => comment.id }, :method => :delete %> </div>
 
-<div style="float: none"><%= button_to "Edit", edit_comment_path(comment.id), :method => :get %></div>
+<div style="float: none"><%= button_to "Edit Comment", edit_comment_path(comment.id), :method => :get %></div>
 
 <% if !current_user.voted_for?(comment)%>
         <%= link_to like_comment_path(comment), method: :put do %> 
