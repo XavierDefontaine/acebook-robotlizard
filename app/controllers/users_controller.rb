@@ -19,7 +19,15 @@ class UsersController < ApplicationController
     @comment = Comment.new(post_id: params[:post_id])
   end
 
-
+  # def self.lizard_photo
+  #   first_image = MiniMagick::Image.new(url_for(@user.avatar.variant(resize: "400x400")))
+  #   second_image = MiniMagick::Image.new("app/assets/images/Purple-Lizard-PNG-Transparent-Picture.png")
+  #   result = first_image.composite(second_image) do |c|
+  #   c.compose "Over"   
+  #   c.geometry "+20+20" 
+  #   end
+  #   result.write "output.jpg"
+  # end
 
   def index
     @users = User.all
