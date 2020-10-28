@@ -1,7 +1,7 @@
 <h1> <%= @user.first_name %> <%=@user.last_name%> </h1>
 <p>About me: <%= @user.bio %></p>
 <p><% if @user.avatar.attached? %>
-  <image src="<%=(url_for(@user.avatar))%>"></image>
+  <img src="<%=(url_for(@user.avatar))%>">
 <% end %></p>
 <%= form_for @post do |form| %>
   <%= form.label "What's on your mind?" %><br>

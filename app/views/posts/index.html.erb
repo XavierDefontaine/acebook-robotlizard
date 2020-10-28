@@ -7,16 +7,32 @@
 <%= form_for @post do |form| %>
   <%= form.label "What's on your mind?" %><br>
   <%= form.text_field :message %><br>
+  <div class="field">
+    <%= form.label :image %><br />
+    <%= form.file_field :image %><br>
+  </div>
+
   <%= form.submit "Submit" %>
+
 <% end %>
+
+
 
 
 <% @posts.reverse.each do |post| %>
   <div>
     <h4><%= post.user.first_name %> <%= post.user.last_name %>: </h4>
     <p><%= post.created_at.strftime("%d/%m/%Y %k:%M") %></p>
+    <p><% if post.image.attached? %>
+      <img src="<%=(url_for(post.image))%>">
+    <% end %></p>
+    
     <h5><%= post.message %></h5>
+    
     <div>
+
+       
+
       <div style="float: left"><%= button_to "Delete Post", { :action => 'destroy', :id => post.id }, :method => :delete %> </div>
 
       <div style="float: none"><%= button_to "Edit", edit_post_path(post.id), :method => :get %></div>
