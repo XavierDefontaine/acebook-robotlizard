@@ -3,6 +3,7 @@
 <div class="profile">
  <h1> <%= @user.first_name %> <%=@user.last_name%> </h1>
 <p>About me: <%= @user.bio %></p>
+
 <p><% if @user.avatar.attached? %>
   <img src="<%=(url_for(@user.avatar.variant(resize: "400x400")))%>">
 <% end %></p>
