@@ -24,7 +24,7 @@
     <h4><%= post.user.first_name %> <%= post.user.last_name %>: </h4>
     <p><%= post.created_at.strftime("%d/%m/%Y %k:%M") %></p>
     <p><% if post.image.attached? %>
-      <img src="<%=(url_for(post.image))%>">
+      <img src="<%=(url_for(post.image.variant(resize: "400x400")))%>">
     <% end %></p>
     
     <h5><%= post.message %></h5>

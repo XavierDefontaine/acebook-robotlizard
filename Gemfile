@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'mini_magick'
 gem "google-cloud-storage", "~> 1.8", require: false
 gem 'bootsnap'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
