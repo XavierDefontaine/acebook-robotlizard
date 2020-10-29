@@ -9,7 +9,10 @@ RSpec.feature "Timeline", type: :feature do
     add_post
 
     fill_in :comment_content, with: "I walk the lonely toad"
-    find("input[type=submit][value='Submit ']").click
+    within(".new_comment") do
+      click_on("Submit")
+    end
+    
     expect(page).to have_content("I walk the lonely toad")
   end
 end

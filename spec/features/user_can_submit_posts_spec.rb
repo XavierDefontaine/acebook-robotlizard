@@ -16,9 +16,11 @@ RSpec.feature "Timeline", type: :feature do
     sign_in
 
     fill_in :post_message, with: "Hello, world!"
-    find("input[type=submit][value='Submit']").click
+    within(".new_post") do
+      click_on("Submit")
+    end
     expect(page).to have_content("Hello, world!")
     expect(page).to have_content("What's on your mind?")
-    expect(page).to have_content("01/01/1994 0:00")
+    expect(page).to have_content("01/01/1994 at 0:00")
   end
 end

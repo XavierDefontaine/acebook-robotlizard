@@ -8,9 +8,9 @@ RSpec.feature "Timeline", type: :feature do
     sign_in
     add_post
     add_comment
-    find("input[type=submit][value='Edit Comment']").click
+    find('button.edit_comment').click
     fill_in :comment_content, with: "I walk alone"
-    find("input[type=submit][value='Submit']").click
+    # click_on("Submit")
     expect(page).to have_content("I walk alone")
   end
 end

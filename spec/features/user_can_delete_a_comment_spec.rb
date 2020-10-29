@@ -8,7 +8,7 @@ RSpec.feature "Timeline", type: :feature do
     sign_in
     add_post
     add_comment
-    find("input[type=submit][value='Delete Comment']").click
+    find('button.delete_comment').click
     expect(page).not_to have_content("I walk the lonely road")
   end
 end
