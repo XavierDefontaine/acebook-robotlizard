@@ -8,6 +8,13 @@ class PostsController < ApplicationController
     redirect_back fallback_location: posts_path
   end
 
+  def destroy_on_profile
+    @post = Post.find(params[:id])
+    @post.destroy
+    redirect_to user_path(current_user.id)
+  end
+
+
   def edit
     @post = Post.find(params[:id])
   end
@@ -44,6 +51,6 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:message, :user_id).merge(user_id: current_user.id)
+    params.require(:post).permit(:message, :user_id, :image).merge(user_id: current_user.id)
   end
 end
