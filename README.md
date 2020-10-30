@@ -4,20 +4,20 @@ Welcome to RobotLizard, the social network for lizards and robots who like to ha
 
 ## Team goals
 
-![RobotLizard goals](https://imgur.com/HK4isr2)
+![RobotLizard goals](https://imgur.com/HK4isr2.jpg)
 
 ## User stories
 
-![User Stories](https://imgur.com/goTdlhn)
+![User Stories](https://imgur.com/goTdlhn.jpg)
 
 
 ## General structure of the project
 
-![CRC Diagram](https://imgur.com/nCuydqF)
+![CRC Diagram](https://imgur.com/nCuydqF.jpg)
 
-![MVC Model](https://imgur.com/R8j9mXM)
+![MVC Model](https://imgur.com/R8j9mXM.jpg)
 
-![MVP](https://imgur.com/Kzlistb)
+![MVP](https://imgur.com/Kzlistb.jpg)
 
 
 ## Gems
