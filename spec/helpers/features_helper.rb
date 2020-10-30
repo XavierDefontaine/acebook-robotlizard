@@ -21,9 +21,7 @@ end
 
 def add_post
   fill_in :post_message, with: "Hello, world!"
-  within(".new_post") do
-    click_on("Submit")
-  end
+  click_on("Post")
 end
 
 def add_comment

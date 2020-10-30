@@ -11,13 +11,13 @@ RSpec.feature "Timeline", type: :feature do
     Timecop.return
   end
 
-  scenario "Can submit posts and view them" do
+  scenario "Can submit add a post and view them" do
     sign_up
     sign_in
 
     fill_in :post_message, with: "Hello, world!"
     within(".new_post") do
-      click_on("Submit")
+      click_on("Post")
     end
     expect(page).to have_content("Hello, world!")
     expect(page).to have_content("What's on your mind?")
