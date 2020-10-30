@@ -51,3 +51,33 @@ https://riptutorial.com/ruby-on-rails/example/6137/change-an-existing-column-s-t
 - rvm use 2.5.0
 - bundle install (update bundler if needed)
 - run rspec to test
+
+## Gems
+
+- For this project, we used different gems:
+
+### Contructing classes
+
+- This gems facilitated the creation of our User class 
+
+### Styling
+
+- Bootstrap: to start our styling, but some of bootstraps's functionalities were overriden by our own styling
+- ImageMagick: to help manipulate images in our app
+
+### Funcionalities
+
+- Act as votable: this was used to be able to like or inlike posts
+- Has friendship: help to implement the friendship functionalities
+
+
+## What is Robot Lizard made of:
+
+- We created our page based on the actual facebook page:
+  - Creating User Class
+  - Creating Post Class
+  - Creating Comment Class
+  - Creating Friendship Class
+- The classes are interlinked by each relevant ID
+ 
+ 
