@@ -26,7 +26,5 @@ end
 
 def add_comment
   fill_in :comment_content, with: "I walk the lonely toad"
-  within(".new_comment") do
-    click_on("Submit")
-  end
+  click_on("Submit")
 end

@@ -8,7 +8,7 @@ RSpec.feature "Timeline", type: :feature do
     sign_in
     add_post
     add_comment
-    click_link('My Profile')
+    click_link("linus's Profile")
     expect(page).to have_content("I walk the lonely toad")
   end
 end

@@ -6,9 +6,9 @@ RSpec.feature "Timeline", type: :feature do
     sign_up
     sign_in
     add_post
-    click_on("edit")
+    click_button("edit")
     fill_in "post_message", with: "Goodbye, world!"
-    click_on("Submit")
+    click_button("Submit")
     expect(page).to have_content("Goodbye, world!")
   end
 end

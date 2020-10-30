@@ -1,273 +1,36 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/models/user.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/mailers/user_mailer.rb": {
         "lines": [
-          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null,
-          1,
-          1,
-          1,
-          1,
           null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
+          0
+        ],
+        "branches": {
+        }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/helpers/comments_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/helpers/friendships_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/helpers/likes_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users/registrations_controller.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          4,
-          4,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/mailers/user_mailer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/posts_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users/sessions_controller.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/models/post.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/models/comment.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/mailers/application_mailer.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -277,7 +40,61 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/jobs/application_job.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/models/comment.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/models/post.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/models/user.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/jobs/application_job.rb": {
         "lines": [
           0,
           0
@@ -285,7 +102,24 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/comments_controller.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/comments_controller.rb": {
         "lines": [
           0,
           null,
@@ -337,7 +171,7 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/friendships_controller.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/friendships_controller.rb": {
         "lines": [
           0,
           0,
@@ -386,7 +220,7 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/likes_controller.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/likes_controller.rb": {
         "lines": [
           0,
           0,
@@ -412,7 +246,7 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users_controller.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users_controller.rb": {
         "lines": [
           0,
           0,
@@ -450,83 +284,7 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users/omniauth_callbacks_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users/passwords_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users/unlocks_controller.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users/omniauth_callbacks_controller.rb": {
         "lines": [
           null,
           null,
@@ -562,7 +320,7 @@
         "branches": {
         }
       },
-      "/Users/student/Documents/Week 8 - 9 /acebook-robotlizard/app/controllers/users/confirmations_controller.rb": {
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users/passwords_controller.rb": {
         "lines": [
           null,
           null,
@@ -593,12 +351,280 @@
           null,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users/sessions_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users/unlocks_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users/confirmations_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/users/registrations_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/controllers/posts_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/helpers/comments_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/helpers/friendships_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/helpers/likes_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/student/projects/week8-9/acebook-robotlizard/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
           0
         ],
         "branches": {
         }
       }
     },
-    "timestamp": 1604055972
+    "timestamp": 1604058735
   }
 }
